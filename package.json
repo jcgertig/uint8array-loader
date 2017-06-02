@@ -1,11 +1,8 @@
 {
-	"name": "raw-loader",
-	"version": "0.5.1",
-	"author": "Tobias Koppers @sokra",
-	"description": "raw loader module for webpack",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:webpack/raw-loader.git"
-	},
-	"license": "MIT"
+  "name": "unit8array-loader",
+  "version": "1.0.0",
+  "author": "Jonathan Gertig",
+  "description": "return content as uint8array",
+  "repository": "jcgertig/unit8array-loader",
+  "license": "MIT"
 }
