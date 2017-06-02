@@ -1,9 +1,8 @@
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
+'use strict';
+
 module.exports = function(content) {
-	this.cacheable && this.cacheable();
-	this.value = content;
-	return "module.exports = " + JSON.stringify(content);
-}
+    this.cacheable && this.cacheable();
+    return 'module.exports = Uint8Array.from("' + content + '");';
+};
+
+module.exports.raw = true;
