@@ -1,7 +1,9 @@
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![deps][deps]][deps-url]
-[![chat][chat]][chat-url]
+[![Downloads][npm-dm]][package-url]
+[![Downloads][npm-dt]][package-url]
+[![NPM Version][npm-v]][package-url]
+[![Dependencies][deps]][package-url]
+[![Dev Dependencies][dev-deps]][package-url]
+[![License][license]][package-url]
 
 <h2 align="center">Install</h2>
 
@@ -51,11 +53,10 @@ import txt from 'file.bfbs';
 ```js
 import txt from 'unit8array-loader!./file.bfbs';
 ```
-[npm]: https://img.shields.io/npm/v/uint8array-loader.svg
-[npm-url]: https://npmjs.com/package/uint8array-loader
-
-[node]: https://img.shields.io/node/v/uint8array-loader.svg
-[node-url]: https://nodejs.org
-
-[deps]: https://david-dm.org/webpack/uint8array-loader.svg
-[deps-url]: https://david-dm.org/webpack/uint8array-loader
+[npm-dm]: https://img.shields.io/npm/dm/uint8array-loader.svg
+[npm-dt]: https://img.shields.io/npm/dt/uint8array-loader.svg
+[npm-v]: https://img.shields.io/npm/v/uint8array-loader.svg
+[deps]: https://img.shields.io/david/jcgertig/uint8array-loader.svg
+[dev-deps]: https://img.shields.io/david/dev/jcgertig/uint8array-loader.svg
+[license]: https://img.shields.io/npm/l/uint8array-loader.svg
+[package-url]: https://npmjs.com/package/uint8array-loader

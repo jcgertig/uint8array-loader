@@ -1,8 +1,17 @@
 {
   "name": "unit8array-loader",
-  "version": "1.0.0",
-  "author": "Jonathan Gertig",
+  "version": "1.0.1",
+  "author": "Jonathan Gertig <jcgertig@gmail.com>",
   "description": "return content as uint8array",
   "repository": "jcgertig/unit8array-loader",
+  "keywords": [
+    "unit8",
+    "unit8array",
+    "binary",
+    "binary file",
+    "babel",
+    "babel-loader",
+    "flatbuffers"
+  ],
   "license": "MIT"
 }
