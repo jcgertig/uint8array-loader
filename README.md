@@ -1,9 +1,13 @@
+# unit8array-loader
+
 [![Downloads][npm-dm]][package-url]
 [![Downloads][npm-dt]][package-url]
 [![NPM Version][npm-v]][package-url]
 [![Dependencies][deps]][package-url]
 [![Dev Dependencies][dev-deps]][package-url]
 [![License][license]][package-url]
+
+__babel loader to return content as a unit8array__
 
 <h2 align="center">Install</h2>
 

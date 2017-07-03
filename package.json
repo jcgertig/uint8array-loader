@@ -1,9 +1,9 @@
 {
-  "name": "unit8array-loader",
-  "version": "1.0.1",
+  "name": "uint8array-loader",
+  "version": "1.0.2",
   "author": "Jonathan Gertig <jcgertig@gmail.com>",
-  "description": "return content as uint8array",
-  "repository": "jcgertig/unit8array-loader",
+  "description": "babel loader to return content as a unit8array",
+  "repository": "jcgertig/uint8array-loader",
   "keywords": [
     "unit8",
     "unit8array",
@@ -13,5 +13,9 @@
     "babel-loader",
     "flatbuffers"
   ],
+  "bugs": {
+    "url": "https://github.com/jcgertig/uint8array-loader/issues"
+  },
+  "homepage": "https://github.com/jcgertig/uint8array-loader#readme",
   "license": "MIT"
 }
