@@ -1,4 +1,4 @@
-# unit8array-loader
+# uint8array-loader
 
 [![Downloads][npm-dm]][package-url]
 [![Downloads][npm-dt]][package-url]
@@ -7,7 +7,7 @@
 [![Dev Dependencies][dev-deps]][package-url]
 [![License][license]][package-url]
 
-__babel loader to return content as a unit8array__
+__babel loader to return content as a uint8array__
 
 <h2 align="center">Install</h2>
 
@@ -28,7 +28,7 @@ module.exports = {
     rules: [
       {
         test: /\.bfbs$/,
-        use: 'unit8array-loader'
+        use: 'uint8array-loader'
       }
     ]
   }
@@ -55,7 +55,7 @@ import txt from 'file.bfbs';
 
 **In your application**
 ```js
-import txt from 'unit8array-loader!./file.bfbs';
+import txt from 'uint8array-loader!./file.bfbs';
 ```
 [npm-dm]: https://img.shields.io/npm/dm/uint8array-loader.svg
 [npm-dt]: https://img.shields.io/npm/dt/uint8array-loader.svg
